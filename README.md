@@ -9,7 +9,7 @@
 
 ### Таблица с шириной по ее содержимому
 ```html
-> <table class="table table--auto-width">...</table>
+<table class="table table--auto-width">...</table>
 ```
 
 ### Таблица зебра
