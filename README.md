@@ -17,7 +17,6 @@
 <table class="table table--striped">...</table>
 ```
 
-
 ## Блок с кодом
 
 ### Код с номерами строк
