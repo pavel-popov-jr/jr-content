@@ -32,6 +32,41 @@
 <table class="table table--dashed-cells">...</table>
 ```
 
+#### Таблица с подзаголовками
+Добавляем к нужному **`<tr>`** класс **`table__sub-head`**
+```html
+<table class="table">
+  <tbody>
+  <tr>
+    <th>Array</th>
+    <th>ArrayList</th>
+  </tr>
+  <tr class="table__sub-head">
+    <td colspan="2" style="text-align: center;">Создание контейнера элементов</td>
+  </tr>
+  <tr>
+    <td>
+      <pre class="lecture-code language-java"><code>String[] list = new String[10];</code></pre>
+    </td>
+    <td>
+      <pre class="lecture-code language-java"><code>ArrayList&ltString&gt list = new ArrayList&ltString&gt();</code></pre>
+    </td>
+  </tr>
+  <tr class="table__sub-head">
+    <td style="text-align: center;" colspan="2">Получение количества элементов</td>
+  </tr>
+  <tr>
+    <td>
+      <pre class="lecture-code language-java"><code>int n = list.length;</code></pre>
+    </td>
+    <td>
+      <pre class="lecture-code language-java"><code>int n = list.size();</code></pre>
+    </td>
+  </tr>
+  </tbody>
+</table>
+```
+
 ## Блок с кодом
 
 #### Код с номерами строк
