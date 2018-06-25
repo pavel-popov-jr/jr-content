@@ -17,6 +17,21 @@
 <table class="table table--striped">...</table>
 ```
 
+#### Таблица пунктирная (все внутренние границы)
+```html
+<table class="table table--dashed">...</table>
+```
+
+#### Таблица пунктирная (только границы между строк)
+```html
+<table class="table table--dashed-rows">...</table>
+```
+
+#### Таблица пунктирная (только границы между ячеек)
+```html
+<table class="table table--dashed-cells">...</table>
+```
+
 ## Блок с кодом
 
 #### Код с номерами строк
